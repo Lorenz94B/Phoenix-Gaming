@@ -1,5 +1,5 @@
 #define MAINPREFIX x
-#define PREFIX brz
+#define PREFIX phx
 
 #include "script_version.hpp"
 

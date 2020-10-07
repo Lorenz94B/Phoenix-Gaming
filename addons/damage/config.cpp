@@ -22,20 +22,34 @@ class CfgWeapons {
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
                 class Abdomen {
-                    armor = 16;
+                    armor = 12;
                 };
                 class Chest {
-                    armor = 16;
+                    armor = 12;
                 };
                 class Diaphragm {
-                    armor = 16;
+                    armor = 12;
                 };
                 class Neck {
-                    armor = 4;
+                    armor = 2;
                 };
             };
         };
     };
+
+    class rhs_6b23_digi: rhs_6b23 {};
+
+    class rhs_6b23_digi_6sh92: rhs_6b23 {};
+
+    class rhs_6b23_digi_6sh92_headset_mapcase: rhs_6b23 {};
+
+    class rhs_6b23_digi_6sh92_radio: rhs_6b23 {};
+
+    class rhs_6b23_digi_6sh92_vog_headset: rhs_6b23 {};
+
+    class rhs_6b23_digi_rifleman: rhs_6b23 {};
+
+    class rhs_6b23_digi_sniper: rhs_6b23 {};
 };
 
 #include "CfgEventHandlers.hpp"

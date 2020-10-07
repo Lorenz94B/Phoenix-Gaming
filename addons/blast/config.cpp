@@ -23,7 +23,7 @@ class CfgCloudlets {
 		circleVelocity[] = {0, 0, 0};
 		colorVar[] = {0, 0, 0, 0};
 		color[] = {{0.1, 0.1, 0.1, 1}, {0.25, 0.25, 0.25, 1}, {0.5, 0.5, 0.5, 1}, {0, 0, 0, 1}, {0, 0, 0, 0.5}, {0, 0, 0, 0.3}};
-		interval =  3 * 10;
+		interval =  3*10;
 		lifeTime = 0.4;
 		lifeTimeVar = 0;
 		MoveVelocityVar[] = {0.2, 0.5, 0.2};
@@ -44,26 +44,26 @@ class CfgCloudlets {
 		rotationVelocityVar = 90;
 		rubbing = 0.1;
 		sizeVar = 0.5;
-		Size[] = {1, 2, 5, 8, 12, 17};
+		size[] = {1, 2, 5, 8, 12, 17};
 		timerPeriod = 1;
 		volume = 7.9000001;
 		weight = 10;
 		};
 	class blast_wave_effect_small: blast_wave_effect {
-		lifeTime = 0.6;
-		Size[] = {1, 2, 5, 8, 12, 17};
+		lifeTime = 0.5;
+		size[] = {1, 2, 5, 8, 12, 17};
 	};
 	class blast_wave_effect_medium: blast_wave_effect {
-		lifeTime = 0.6;
-		Size[] = {1, 8, 20, 35, 50, 70};
+		lifeTime = 0.5;
+		size[] = {1, 8, 20, 35, 50, 70};
 	};
 	class blast_wave_effect_large: blast_wave_effect {
-		lifeTime = 0.6;
-		Size[] = {1, 16, 40, 70, 100, 140};
+		lifeTime = 0.5;
+		size[] = {1, 16, 40, 70, 100, 140};
 	};
 	class blast_wave_effect_very_large: blast_wave_effect {
-		lifeTime = 1.0;
-		Size[] = {1, 35, 80, 140, 200, 280};
+		lifeTime = 0.8;
+		size[] = {1, 35, 80, 140, 200, 280};
 	};
 };
 
@@ -73,8 +73,8 @@ class IEDMineBigExplosion {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -84,8 +84,8 @@ class IEDMineSmallExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -95,8 +95,8 @@ class SencondaryExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -106,8 +106,8 @@ class MineNondirectionalExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -117,8 +117,8 @@ class MineNondirectionalExplosionSmall {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -128,8 +128,8 @@ class ExplosionEffects {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -139,8 +139,8 @@ class BasicAmmoExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -150,8 +150,8 @@ class MineExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -161,8 +161,8 @@ class ATMineExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -172,8 +172,8 @@ class BoundingMineExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -183,8 +183,8 @@ class DirectionalMineExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -194,8 +194,8 @@ class DirectionalMineExplosionBig {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -205,8 +205,8 @@ class HERocketExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -216,8 +216,8 @@ class HEShellExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -227,8 +227,8 @@ class ArtyShellExplosion {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -238,8 +238,8 @@ class HelicopterExplosionEffects {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -249,8 +249,8 @@ class HelicopterExplosionEffects2 {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -260,8 +260,8 @@ class VehicleExplosionEffectsBig {
 		type = "blast_wave_effect_very_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -271,8 +271,8 @@ class VehicleExplosionEffects {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -282,8 +282,8 @@ class RocketExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -293,8 +293,8 @@ class Demo_Charge_Explode {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -304,8 +304,8 @@ class M136_Explode {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -315,8 +315,8 @@ class 40mm_HE_Explode {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -326,8 +326,8 @@ class GrenadeExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -337,8 +337,8 @@ class 80mm_Explode {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -348,8 +348,8 @@ class MortarExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -359,8 +359,8 @@ class 155mm_Explode {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -370,8 +370,8 @@ class ATMissileExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -381,8 +381,8 @@ class AAMissileExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -392,8 +392,8 @@ class ATRocketExplosion {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -403,8 +403,8 @@ class BombExplosion {
 		type = "blast_wave_effect_very_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -414,8 +414,8 @@ class AA_Explode {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -425,8 +425,8 @@ class Hellfire_Explode {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -436,8 +436,8 @@ class SABOT_Explode {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -447,8 +447,8 @@ class MK82_Explode {
 		type = "blast_wave_effect_very_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -458,8 +458,8 @@ class MLRS_Explode {
 		type = "blast_wave_effect_very_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -469,8 +469,8 @@ class HERoundExplosion {
 		type = "blast_wave_effect_large";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -480,8 +480,8 @@ class 25mm_Explode {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -491,8 +491,8 @@ class ExploAmmoExplosion {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -502,8 +502,8 @@ class 30mmExplode {
 		type = "blast_wave_effect_small";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 
@@ -513,8 +513,8 @@ class 120mm_HE {
 		type = "blast_wave_effect_medium";
 		position[] = {0, 0, 0};
 		intensity = 1;
-		interval =  3 * 1;
-		lifeTime = 1;
+		interval =  3*1;
+		lifeTime = 0.9;
 	};
 };
 

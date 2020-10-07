@@ -13,7 +13,7 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@Phoenix Gaming";
+        dir = "@Phoenix-Gaming";
         name = "Phoenix Gaming";
         picture = "";
         hidePicture = "true";

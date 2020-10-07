@@ -1,3 +1,3 @@
 #define COMPONENT blast
 
-#include "\x\brz\addons\main\script_mod.hpp"
+#include "\x\phx\addons\main\script_mod.hpp"
