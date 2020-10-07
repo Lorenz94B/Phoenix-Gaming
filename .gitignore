@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+
+hemtt.exe
+.hemtt/local
+keys/*
+releases/*
+*.biprivatekey
+*.pbo
+*.bisign
+*.cache

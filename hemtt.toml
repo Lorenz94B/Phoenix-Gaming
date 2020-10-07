@@ -1,0 +1,14 @@
+author = "Brazzer"
+
+name = "Phoenix Gaming - Client Mod"
+prefix = "brz"
+
+modname = "Phoenix Gaming"
+key_name = "phoenix_gaming_{{version}}"
+
+# releasebuild = [
+#     "@zip phoenix_gaming_{{version}}"
+# ]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
